@@ -1,1 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consumo de API - Animes</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+    <h1>Animes</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Título en inglés</th>
+                <th>Sinopsis</th>
+                <th>Año</th>
+                <th>Imagen</th>
+                <th>Numero de Episodios</th>
+            </tr>
+        </thead>
+   
+        <tbody id="animeTabla"></tbody>
+    </table>
+
+    <script src="./Js/utilidades.js"></script>
+    <script>
+      
+        document.addEventListener("DOMContentLoaded", cargarAnimes);
+    </script>
+</body>
+</html>
 
